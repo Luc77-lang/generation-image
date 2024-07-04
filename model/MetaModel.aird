@@ -4,7 +4,7 @@
     <semanticResources>MetaModel.ecore</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_RJ9tIDXgEe-Q9dvqAfcKrg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_TX_D4DXgEe-Q9dvqAfcKrg" name=" class diagram" repPath="#_TXt-IDXgEe-Q9dvqAfcKrg" changeId="1719997896976">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_TX_D4DXgEe-Q9dvqAfcKrg" name=" class diagram" repPath="#_TXt-IDXgEe-Q9dvqAfcKrg" changeId="1720098330104">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="MetaModel.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -83,7 +83,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_uiu5wzXnEe-Q9dvqAfcKrg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_uiuSsTXnEe-Q9dvqAfcKrg" fontName="Cantarell" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uiuSsjXnEe-Q9dvqAfcKrg" x="215" y="257" width="120" height="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uiuSsjXnEe-Q9dvqAfcKrg" x="215" y="265" width="120" height="100"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_7G_rkDXnEe-Q9dvqAfcKrg" type="2003" element="_7GxCEDXnEe-Q9dvqAfcKrg">
           <children xmi:type="notation:Node" xmi:id="_7HASoDXnEe-Q9dvqAfcKrg" type="5007"/>
@@ -134,17 +134,17 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_TX_q8jXgEe-Q9dvqAfcKrg"/>
         <edges xmi:type="notation:Edge" xmi:id="_qz4a0DbWEe-Nl9PuFykWuA" type="4001" element="_qzyUNjbWEe-Nl9PuFykWuA" source="_uiuSsDXnEe-Q9dvqAfcKrg" target="_7G_rkDXnEe-Q9dvqAfcKrg">
           <children xmi:type="notation:Node" xmi:id="_qz5B4DbWEe-Nl9PuFykWuA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B4TbWEe-Nl9PuFykWuA" x="44" y="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B4TbWEe-Nl9PuFykWuA" x="48" y="21"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_qz5B4jbWEe-Nl9PuFykWuA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B4zbWEe-Nl9PuFykWuA" x="77" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B4zbWEe-Nl9PuFykWuA" x="84" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_qz5B5DbWEe-Nl9PuFykWuA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B5TbWEe-Nl9PuFykWuA" x="6" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz5B5TbWEe-Nl9PuFykWuA" x="7" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_qz4a0TbWEe-Nl9PuFykWuA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_qz4a0jbWEe-Nl9PuFykWuA" fontColor="7490599" fontName="Cantarell" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qz4a0zbWEe-Nl9PuFykWuA" points="[13, 50, -137, 140]$[45, 50, -105, 140]$[45, -90, -105, 0]$[150, -90, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qz4a0zbWEe-Nl9PuFykWuA" points="[13, 50, -137, 148]$[45, 50, -105, 148]$[45, -98, -105, 0]$[150, -98, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qz5B5jbWEe-Nl9PuFykWuA" id="(0.8898305084745762,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qz5B5zbWEe-Nl9PuFykWuA" id="(0.0,0.9897959183673469)"/>
         </edges>
@@ -211,9 +211,9 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_vebX4DXlEe-Q9dvqAfcKrg" name="FormeType" tooltipText="" width="12" height="10">
-      <target xmi:type="ecore:EEnum" href="MetaModel.ecore#//FormeType"/>
-      <semanticElements xmi:type="ecore:EEnum" href="MetaModel.ecore#//FormeType"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_vebX4DXlEe-Q9dvqAfcKrg" name="TypeForme" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EEnum" href="MetaModel.ecore#//TypeForme"/>
+      <semanticElements xmi:type="ecore:EEnum" href="MetaModel.ecore#//TypeForme"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -222,32 +222,32 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_ySIOkDXlEe-Q9dvqAfcKrg" name="Cercle" tooltipText="">
-        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Cercle"/>
-        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Cercle"/>
+        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Cercle"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Cercle"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_ySI1oDXlEe-Q9dvqAfcKrg" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_0oDkIDXlEe-Q9dvqAfcKrg" name="Rectangle" tooltipText="">
-        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Rectangle"/>
-        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Rectangle"/>
+        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Rectangle"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Rectangle"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_0oELMDXlEe-Q9dvqAfcKrg" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_7SKPIDkbEe-GzKeraio0CA" name="Triangle" tooltipText="">
-        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Triangle"/>
-        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Triangle"/>
+        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Triangle"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Triangle"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_7SK2MDkbEe-GzKeraio0CA" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_985XEzkbEe-GzKeraio0CA" name="Ligne" tooltipText="">
-        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Ligne"/>
-        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//FormeType/Ligne"/>
+        <target xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Ligne"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="MetaModel.ecore#//TypeForme/Ligne"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_985-IDkbEe-GzKeraio0CA" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
@@ -272,7 +272,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="__Bhc4DXmEe-Q9dvqAfcKrg" name="type : FormeType = Cercle" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__Bhc4DXmEe-Q9dvqAfcKrg" name="type : TypeForme = Cercle" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Cercle/type"/>
         <semanticElements xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Cercle/type"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_Ga-9wTXnEe-Q9dvqAfcKrg" labelAlignment="LEFT">
@@ -307,7 +307,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_8VkXgDXnEe-Q9dvqAfcKrg" name="type : FormeType = Rectangle" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_8VkXgDXnEe-Q9dvqAfcKrg" name="type : TypeForme = Rectangle" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Rectangle/type"/>
         <semanticElements xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Rectangle/type"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_9gJUQTXnEe-Q9dvqAfcKrg" labelAlignment="LEFT">
@@ -358,7 +358,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_tI-t8TkbEe-GzKeraio0CA" name="type : FormeType = Ligne" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_tI-t8TkbEe-GzKeraio0CA" name="type : TypeForme = Ligne" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Ligne/type"/>
         <semanticElements xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Ligne/type"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_tI-t8jkbEe-GzKeraio0CA" labelAlignment="LEFT">
@@ -385,7 +385,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pJLJUTbSEe-Nl9PuFykWuA" name="type : FormeType = Triangle" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pJLJUTbSEe-Nl9PuFykWuA" name="type : TypeForme = Triangle" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Triangle/type"/>
         <semanticElements xmi:type="ecore:EAttribute" href="MetaModel.ecore#//Triangle/type"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_pJLwYDbSEe-Nl9PuFykWuA" labelAlignment="LEFT">
