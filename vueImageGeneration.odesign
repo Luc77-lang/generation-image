@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="vueImageGeneration" version="12.0.0.2017041100">
+  <ownedViewpoints name="VueImageGeneration">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagrammeForme" domainClass="TypeForme" enablePopupBars="true">
+      <additionalLayers name="CoucheRectangle">
+        <nodeMappings name="NoeudRectangle" semanticCandidatesExpression="aql:self.shapes->select(e | e.oclIsKindOf(Rectangle))" domainClass="Rectangle"/>
+        <containerMappings name="ConteneurRectangle" semanticCandidatesExpression="aql:self" domainClass="TypeForme"/>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreerRectangle" nodeMappings="//@ownedViewpoints[name='VueImageGeneration']/@ownedRepresentations[name='DiagrammeForme']/@additionalLayers[name='CoucheRectangle']/@nodeMappings[name='NoeudRectangle']">
+            <variable name="conteneur"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:conteneur">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Rectangle"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+      <additionalLayers name="CoucheTriangle">
+        <nodeMappings name="NoeudTriangle" semanticCandidatesExpression="aql:self.shapes->select(e | e.oclIsKindOf(Triangle))" domainClass="Triangle"/>
+        <containerMappings name="ConteneurTriangle" semanticCandidatesExpression="aql:self" domainClass="TypeForme"/>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreerTriangle" nodeMappings="//@ownedViewpoints[name='VueImageGeneration']/@ownedRepresentations[name='DiagrammeForme']/@additionalLayers[name='CoucheTriangle']/@nodeMappings[name='NoeudTriangle']">
+            <variable name="conteneur"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:conteneur">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Triangle"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+      <additionalLayers name="CoucheCercle">
+        <nodeMappings name="NoeudCercle" semanticCandidatesExpression="aql:self.shapes->select(e | e.oclIsKindOf(Cercle))" domainClass="Cercle"/>
+        <containerMappings name="ConteneurCercle" semanticCandidatesExpression="aql:self" domainClass="TypeForme"/>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreerCercle" nodeMappings="//@ownedViewpoints[name='VueImageGeneration']/@ownedRepresentations[name='DiagrammeForme']/@additionalLayers[name='CoucheCercle']/@nodeMappings[name='NoeudCercle']">
+            <variable name="conteneur"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:conteneur">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Cercle"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

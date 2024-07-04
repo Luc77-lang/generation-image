@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="">
+  <eClassifiers xsi:type="ecore:EClass" name="Type"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="FormeType">
+    <eLiterals name="Cercle"/>
+    <eLiterals name="Rectangle" value="1"/>
+    <eLiterals name="Triangle" value="3"/>
+    <eLiterals name="Ligne" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cercle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rayon" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//FormeType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ligne" upperBound="-1"
+        eType="#//Ligne" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Rectangle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longueur" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="largeur" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//FormeType"
+        defaultValueLiteral="Rectangle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ligne" upperBound="-1"
+        eType="#//Ligne" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Ligne">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="debutX" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ligne" eType="#//Ligne"
+        eOpposite="#//Ligne/ligneeOpposite"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ligneeOpposite" eType="#//Ligne"
+        eOpposite="#//Ligne/ligne"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="debutY" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="finX" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="finY" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//FormeType"
+        defaultValueLiteral="Ligne"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Triangle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cote" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//FormeType"
+        defaultValueLiteral="Triangle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ligne" upperBound="-1"
+        eType="#//Ligne" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
